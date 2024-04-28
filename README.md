@@ -26,6 +26,6 @@ And to do basicaly the same thing as mapbox of iri.columbia.edu
 
 
 ### LINKS
-- WOA23(https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/)
-- GODAS(https://psl.noaa.gov/data/gridded/data.godas.html)
-- OceanColor(https://oceancolor.gsfc.nasa.gov/l3/)
+- [WOA23](https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/)
+- [GODAS](https://psl.noaa.gov/data/gridded/data.godas.html)
+- [OceanColor](https://oceancolor.gsfc.nasa.gov/l3/)
