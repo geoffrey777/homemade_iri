@@ -18,11 +18,11 @@ And to do basicaly the same thing as mapbox of iri.columbia.edu
 | nitrate | WOA23 | \mu mol.kg^{-1} | depth, latitude, longitude |
 | phosphate | WOA23 | \mu mol.kg^{-1} | depth, latitude, longitude |
 | silicate | WOA23 | \mu mol.kg^{-1} | depth, latitude, longitude |
-| pottemp | GODAS | °C | month, level, latitude, longitude |
-| ucur | GODAS | m.s^{-1} | month, level, latitude, longitude |
-| uflx | GODAS | N.m^{-2} | month, latitude, longitude |
-| vcur | GODAS | m.s^{-1} | month, level, latitude, longitude |
-| vflx | GODAS | N.m^{-2} | month, latitude, longitude |
+| pottemp | GODAS | K | year, month, level, latitude, longitude |
+| ucur | GODAS | m.s^{-1} | year, month, level, latitude, longitude |
+| uflx | GODAS | N.m^{-2} | year, month, latitude, longitude |
+| vcur | GODAS | m.s^{-1} | year, month, level, latitude, longitude |
+| vflx | GODAS | N.m^{-2} | year, month, latitude, longitude |
 
 
 
