@@ -15,9 +15,9 @@ And to do basicaly the same thing as mapbox of iri.columbia.edu
 | ----------- | ----------- | ----------- | ----------- |
 | chlorophyll | oceancolor | mg.m^{3} | year, month, latitude, longitude |
 | sst | oceancolor | °C | year, month, latitude, longitude |
-| nitrate | WOA23 | \mu mol.kg^{-1} | month, latitude, longitude |
-| phosphate | WOA23 | \mu mol.kg^{-1} | month, latitude, longitude |
-| silicate | WOA23 | \mu mol.kg^{-1} | month, latitude, longitude |
+| nitrate | WOA23 | \mu mol.kg^{-1} | depth, latitude, longitude |
+| phosphate | WOA23 | \mu mol.kg^{-1} | depth, latitude, longitude |
+| silicate | WOA23 | \mu mol.kg^{-1} | depth, latitude, longitude |
 | pottemp | GODAS | °C | month, level, latitude, longitude |
 | ucur | GODAS | m.s^{-1} | month, level, latitude, longitude |
 | uflx | GODAS | N.m^{-2} | month, latitude, longitude |
