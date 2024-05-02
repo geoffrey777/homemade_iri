@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 import numpy as np
 
-from data_np import *
+from data import *
 import warnings
 
 def translate(label, pluriel = False):
@@ -181,6 +181,11 @@ class Draw():
         self.usr_axis_length = self.axis_length[variable]
         self.avg_axis = []
 
+        if "month" in list(kwargs.keys()):
+            # GET DATA HAS ALREADY
+            # TAKEN USER MONTHS
+            del kwargs["month"]
+        
         # UPDATING DATA AS USER PREFERENCES
         for label in kwargs.keys():
            
@@ -316,8 +321,6 @@ class Draw():
         # MATPLOTLIB
         fig, ax = plt.subplots()
 
-        """ POST OPTION """
-        
         # MULTIPLE LINES IN LEGEND
         # j GROUPED IN X-AXIS
         # k GROUP IN LEGEND
@@ -354,12 +357,11 @@ class Draw():
             ax.set_ylabel(variable.upper() + " $[" + units[vars[variable]] + "]$")
 
         
-        else:
+        elif not Y_label:
             ax.scatter(X, Z, color = colors[variable])
         
-        """ END OF POST OPTION """
         # 2D FIGURE = IMSHOW
-        if Y_label:
+        else:
             # Y TICKS
             ax_yticks_label = check_and_round(np.repeat(self.usr_axis[Y_labels[0]], Y_k))# TODO Y_LABELS
             step = get_labels_resolution(Y_j, height)
