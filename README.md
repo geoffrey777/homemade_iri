@@ -58,4 +58,4 @@ over the label2 axis in terms of label1 values
 - [WOA23](https://www.ncei.noaa.gov/access/world-ocean-atlas-2023/)
 - [GODAS](https://psl.noaa.gov/data/gridded/data.godas.html)
 - [OceanColor](https://oceancolor.gsfc.nasa.gov/l3/)
-- [IRI MAPBOX](https://iridl.ldeo.columbia.edu/maproom/index.html)
+- [IRI MAPROOM](https://iridl.ldeo.columbia.edu/maproom/index.html)
