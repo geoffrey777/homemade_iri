@@ -52,7 +52,7 @@ by label2'values
 **max** and **min** : draw.figure(variable, "label1 max label2") will display the max value of variable 
 over the label2 axis in terms of label1 values
 
-### Exemples
+### Examples
 
 
 ### LINKS
